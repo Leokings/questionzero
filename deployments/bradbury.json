@@ -1,0 +1,137 @@
+{
+  "schema": "questionzero/deployment/v1",
+  "network": "testnet-bradbury",
+  "chainId": 4221,
+  "status": "FINALIZED",
+  "contractAddress": "0xcD66c6384d0443746C79889507b6d85fb85Ffa80",
+  "deploymentTransaction": "0x1739fa5e356797ba41a6f2d2b4e38d11dc150d23f739b9fa06a7b73eb53f6525",
+  "deployer": "0x797d3B25fB2cCA0Ff93F60df1910267f3822D655",
+  "owner": "0x797d3B25fB2cCA0Ff93F60df1910267f3822D655",
+  "policyVersion": 1,
+  "sourceSha256": "1B8672668E7AFB0F14205D98A53D2B64BF250A7323A9708ADC2A5F49E5B3A6B5",
+  "release": {
+    "repository": "https://github.com/Leokings/questionzero",
+    "tag": "v0.1.0",
+    "tagType": "ANNOTATED",
+    "repositoryVisibility": "PRIVATE",
+    "reviewerAccessible": false,
+    "portalEvidenceStatus": "PENDING_PUBLIC_ACCESS"
+  },
+  "sourceVerification": {
+    "method": "read-only genlayer code retrieval",
+    "verifiedOn": "2026-08-13",
+    "localBytes": 19705,
+    "deployedBytes": 19705,
+    "localSha256": "1B8672668E7AFB0F14205D98A53D2B64BF250A7323A9708ADC2A5F49E5B3A6B5",
+    "deployedSha256": "1B8672668E7AFB0F14205D98A53D2B64BF250A7323A9708ADC2A5F49E5B3A6B5",
+    "byteForByteMatch": true
+  },
+  "finalityWindowSeconds": 1800,
+  "deploymentReceiptSummary": {
+    "status": "FINALIZED",
+    "consensusResult": "AGREE",
+    "executionResult": "FINISHED_WITH_RETURN",
+    "txExecutionHash": "0xf6bfd08a1c6d146078f60c5643eda73afc30aececaf9013bc9ddd2918b558322",
+    "round": 0,
+    "votesCommitted": 5,
+    "votesRevealed": 5,
+    "agreeVotes": 5,
+    "nonAgreeVotes": 0,
+    "commonResultHash": "0xc0bf1a5896191466d425c4087016758bfeb393d7b21edd041ed3beaf8647aa20"
+  },
+  "explorerContract": "https://explorer-bradbury.genlayer.com/address/0xcD66c6384d0443746C79889507b6d85fb85Ffa80",
+  "explorerDeploymentTransaction": "https://explorer-bradbury.genlayer.com/tx/0x1739fa5e356797ba41a6f2d2b4e38d11dc150d23f739b9fa06a7b73eb53f6525",
+  "smokeTest": {
+    "specId": "0x797d3b25fb2cca0ff93f60df1910267f3822d655:BRADBURY-RETEST-20260813",
+    "specFingerprint": "sha256:84c22cd3e30a708fb6b829b2ab6aaa9136bac952a406dda59a9f309893edd137",
+    "alteredFingerprint": "sha256:84c22cd3e30a708fb6b829b2ab6aaa9136bac952a406dda59a9f309893edd130",
+    "registrationTransaction": "0x80e3f7a44ad33709b3144f1ef4359da7d319343d869dc2b0343623f1f863af86",
+    "registrationStatus": "FINALIZED",
+    "registeredAt": "2026-08-13T00:53:40Z",
+    "registrationReceiptSummary": {
+      "status": "FINALIZED",
+      "consensusResult": "AGREE",
+      "executionResult": "FINISHED_WITH_RETURN",
+      "txExecutionHash": "0x35b473d17eac86100cdbfe361c0f0f9894217119ca7eb6f0fa57cdd53f83baf5",
+      "round": 0,
+      "votesCommitted": 5,
+      "votesRevealed": 5,
+      "agreeVotes": 5,
+      "nonAgreeVotes": 0,
+      "commonResultHash": "0x71973f76245ef318178d239e16024f102595019033a19b8ccdb8242977a548b1"
+    },
+    "auditTransaction": "0xf91b5e5e387c8cc55a542b29539ab8398e27262074b4fe4bc4433aebe728f792",
+    "auditStatus": "FINALIZED",
+    "auditExecutionResult": "FINISHED_WITH_RETURN",
+    "auditedAt": "2026-08-13T11:21:20Z",
+    "auditRecord": {
+      "audited_at": "2026-08-13T11:21:20Z",
+      "issue_codes": [],
+      "issue_mask": 0,
+      "policy_version": 1,
+      "schema": "questionzero/audit/v1",
+      "spec_fingerprint": "sha256:84c22cd3e30a708fb6b829b2ab6aaa9136bac952a406dda59a9f309893edd137",
+      "spec_id": "0x797d3b25fb2cca0ff93f60df1910267f3822d655:BRADBURY-RETEST-20260813",
+      "verdict": "RESOLVABLE"
+    },
+    "exactFingerprintMatch": true,
+    "alteredFingerprintMatch": false,
+    "postFinalityViews": {
+      "isAudited": true,
+      "hasResolvableAudit": true,
+      "exactFingerprintMatch": true,
+      "alteredFingerprintMatch": false,
+      "specCount": 1,
+      "auditCount": 1,
+      "specIdAtIndexZero": "0x797d3b25fb2cca0ff93f60df1910267f3822d655:BRADBURY-RETEST-20260813",
+      "auditIdAtIndexZero": "0x797d3b25fb2cca0ff93f60df1910267f3822d655:BRADBURY-RETEST-20260813"
+    },
+    "receiptSummary": {
+      "status": "FINALIZED",
+      "consensusResult": "AGREE",
+      "executionResult": "FINISHED_WITH_RETURN",
+      "txExecutionHash": "0xc48cff0384225325247918e498d6c683f3e8169174350cf23c9f73c147e857c7",
+      "numOfRounds": 2,
+      "finalRound": 2,
+      "votesCommitted": 5,
+      "votesRevealed": 5,
+      "agreeVotes": 4,
+      "timeoutVotes": 1,
+      "appealBond": 0,
+      "validatorVotes": [
+        {
+          "address": "0x2d012a292244C7ce6423a114d19109990923Af76",
+          "vote": "AGREE",
+          "voteHash": "0xaf41a5ccbb715cb43fe52c164eee2bb4b5ae5445e3c40e54fc06205b82147a00",
+          "resultHash": "0x53456d81ed64b1bacd8a6b5b3d38e9e020bc615b14712d0b5e51dd57448050d4"
+        },
+        {
+          "address": "0x4f36CB2C58385575fafb443d80E3c290b12DA6aE",
+          "vote": "AGREE",
+          "voteHash": "0xc63f464f66bf2befe37016e0146e836ab8ee40f639dae8e133a7f54a8ef15dbd",
+          "resultHash": "0x53456d81ed64b1bacd8a6b5b3d38e9e020bc615b14712d0b5e51dd57448050d4"
+        },
+        {
+          "address": "0xB93a46B843fB32E8Ce392e68eDFE93Faa4a40817",
+          "vote": "AGREE",
+          "voteHash": "0x438bce2ee9945d7feca897a83b8217e8c1c265ff7dfe70ea32598c1268357050",
+          "resultHash": "0x53456d81ed64b1bacd8a6b5b3d38e9e020bc615b14712d0b5e51dd57448050d4"
+        },
+        {
+          "address": "0x0c526A6af46A038E31dA21C123756Ab2D75f06Bc",
+          "vote": "TIMEOUT",
+          "voteHash": "0x30db6697da15ac7ff094ce795698cb5660026a2af518aa5aed3c07ae655ea847",
+          "resultHash": "0x9fc8d2d92c2ea25ae2ac3d9b20370cb9cb1e53d073b5c1a20b03621ca750f8df"
+        },
+        {
+          "address": "0x96298d411a2D622945BEACa6112374583b501d52",
+          "vote": "AGREE",
+          "voteHash": "0xa9c6e7b609d05ae00640771fdc494887f51acfb2982fd9206a957894745ddd90",
+          "resultHash": "0x53456d81ed64b1bacd8a6b5b3d38e9e020bc615b14712d0b5e51dd57448050d4"
+        }
+      ]
+    },
+    "explorerRegistrationTransaction": "https://explorer-bradbury.genlayer.com/tx/0x80e3f7a44ad33709b3144f1ef4359da7d319343d869dc2b0343623f1f863af86",
+    "explorerAuditTransaction": "https://explorer-bradbury.genlayer.com/tx/0xf91b5e5e387c8cc55a542b29539ab8398e27262074b4fe4bc4433aebe728f792"
+  }
+}

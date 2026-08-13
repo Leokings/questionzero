@@ -1,0 +1,20 @@
+{
+  "name": "questionzero",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck:deploy": "tsc -p tsconfig.json",
+    "deploy": "genlayer deploy"
+  },
+  "devDependencies": {
+    "@types/node": "24.13.3",
+    "genlayer": "0.39.2",
+    "genlayer-js": "1.1.8",
+    "typescript": "7.0.2"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "pnpm@11.16.0"
+}

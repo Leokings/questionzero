@@ -1,0 +1,110 @@
+{
+  "schema": "questionzero/deployment/v1",
+  "network": "studionet",
+  "chainId": 61999,
+  "status": "FINALIZED",
+  "contractAddress": "0xBc94C882f9a8269A668B07378780E5E2A8689E3A",
+  "deploymentTransaction": "0x0a42866afc6e77a5f9b19b612c53c757060ae3514a06336f2e1882332249013a",
+  "deployer": "0x797d3B25fB2cCA0Ff93F60df1910267f3822D655",
+  "owner": "0x797d3B25fB2cCA0Ff93F60df1910267f3822D655",
+  "policyVersion": 1,
+  "sourceSha256": "1B8672668E7AFB0F14205D98A53D2B64BF250A7323A9708ADC2A5F49E5B3A6B5",
+  "release": {
+    "repository": "https://github.com/Leokings/questionzero",
+    "tag": "v0.1.0",
+    "tagType": "ANNOTATED",
+    "repositoryVisibility": "PRIVATE",
+    "reviewerAccessible": false,
+    "portalEvidenceStatus": "PENDING_PUBLIC_ACCESS"
+  },
+  "sourceVerification": {
+    "method": "read-only gen_getContractCode retrieval",
+    "verifiedOn": "2026-08-13",
+    "localBytes": 19705,
+    "deployedBytes": 19705,
+    "localSha256": "1B8672668E7AFB0F14205D98A53D2B64BF250A7323A9708ADC2A5F49E5B3A6B5",
+    "deployedSha256": "1B8672668E7AFB0F14205D98A53D2B64BF250A7323A9708ADC2A5F49E5B3A6B5",
+    "byteForByteMatch": true
+  },
+  "deploymentReceiptSummary": {
+    "status": "FINALIZED",
+    "consensusResult": "MAJORITY_AGREE",
+    "leaderExecutionResult": "SUCCESS",
+    "txExecutionHash": "0x2831e4c9eaa007f1d09d5746183194ef394b7886d9ca84ab0acc798310de898b",
+    "round": 0,
+    "votesCommitted": 5,
+    "votesRevealed": 5,
+    "agreeVotes": 5,
+    "idleVotes": 0,
+    "voteNames": [
+      "AGREE",
+      "AGREE",
+      "AGREE",
+      "AGREE",
+      "AGREE"
+    ]
+  },
+  "explorerContract": "https://explorer-studio.genlayer.com/address/0xBc94C882f9a8269A668B07378780E5E2A8689E3A",
+  "explorerDeploymentTransaction": "https://explorer-studio.genlayer.com/tx/0x0a42866afc6e77a5f9b19b612c53c757060ae3514a06336f2e1882332249013a",
+  "smokeTest": {
+    "specId": "0x797d3b25fb2cca0ff93f60df1910267f3822d655:STUDIO-RETEST-20260812",
+    "specFingerprint": "sha256:9529a17e3f1d4a1582947c8373d7f5f4967efd9683445f2742b8a3e7f143d53e",
+    "alteredFingerprint": "sha256:9529a17e3f1d4a1582947c8373d7f5f4967efd9683445f2742b8a3e7f143d530",
+    "registrationTransaction": "0x143c69facc88014b51681279d0f284a94c0012bca349e3cd5c324796cc0eb829",
+    "registrationStatus": "FINALIZED",
+    "registeredAt": "2026-08-12T21:38:43.288246Z",
+    "registrationReceiptSummary": {
+      "status": "FINALIZED",
+      "consensusResult": "MAJORITY_AGREE",
+      "leaderExecutionResult": "SUCCESS",
+      "txExecutionHash": "0xf0097b5bb87821da20d33f9c61768e1fd8471440c3a4f27b55661926cff1c199",
+      "round": 0,
+      "votesCommitted": 5,
+      "votesRevealed": 5,
+      "agreeVotes": 3,
+      "idleVotes": 2,
+      "voteNames": [
+        "IDLE",
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "auditTransaction": "0x1b9749c34d766bc256fde177aed6209641deb16e92f2e4da0ce97c64f3a21e23",
+    "auditStatus": "FINALIZED",
+    "auditedAt": "2026-08-12T21:41:34.714521Z",
+    "auditRecord": {
+      "audited_at": "2026-08-12T21:41:34.714521+00:00",
+      "issue_codes": [],
+      "issue_mask": 0,
+      "policy_version": 1,
+      "schema": "questionzero/audit/v1",
+      "spec_fingerprint": "sha256:9529a17e3f1d4a1582947c8373d7f5f4967efd9683445f2742b8a3e7f143d53e",
+      "spec_id": "0x797d3b25fb2cca0ff93f60df1910267f3822d655:STUDIO-RETEST-20260812",
+      "verdict": "RESOLVABLE"
+    },
+    "exactFingerprintMatch": true,
+    "alteredFingerprintMatch": false,
+    "auditReceiptSummary": {
+      "status": "FINALIZED",
+      "consensusResult": "MAJORITY_AGREE",
+      "leaderExecutionResult": "SUCCESS",
+      "txExecutionHash": "0xd89991906eda0428504ea9f18cde1767e0f3ba9eac46fa742f954277bd494397",
+      "round": 0,
+      "votesCommitted": 5,
+      "votesRevealed": 5,
+      "agreeVotes": 3,
+      "idleVotes": 2,
+      "voteNames": [
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "IDLE"
+      ]
+    },
+    "explorerRegistrationTransaction": "https://explorer-studio.genlayer.com/tx/0x143c69facc88014b51681279d0f284a94c0012bca349e3cd5c324796cc0eb829",
+    "explorerAuditTransaction": "https://explorer-studio.genlayer.com/tx/0x1b9749c34d766bc256fde177aed6209641deb16e92f2e4da0ce97c64f3a21e23"
+  }
+}
